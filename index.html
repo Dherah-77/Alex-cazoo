@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./output.css">
+    <link href="./Images/logo2.jpeg" rel="icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <title>Lexi-Autos</title>
+    <script src="script.js" defer></script>
+</head>
+<body class="min-h-screen">
+    <header
+      class="fixed top-0 justify-between flex flex-row left-0 w-full z-20 p-4 shadow-lg bg-blue-500"
+    >
+      <a href="#" class="w-40">
+        <img src="./Images/logo.png" alt="Logo-image" />
+      </a>
+      <ul class="p-4 hidden text-white text-sm m-auto md:flex flex-row gap-6">
+        <a href="#about"><li>About Us</li></a>
+        <a href="#products"><li>Products</li></a>
+        <a href="#contact"><li>Contacts</li></a>
+      </ul>
+      <ul
+        class="smallnav w-full mt-19 absolute left-0 bg-blue-500 h-35 flex flex-col justify-evenly text-center"
+        style="display: none"
+      >
+        <a href="#about" class="smabout"><li>About Us</li></a>
+        <hr />
+        <a href="#products" class="smproducts"><li>Products</li></a>
+        <hr />
+        <a href="#contact" class="smcontact"><li>Contacts</li></a>
+      </ul>
+      <img
+        src="./Images/menu.png"
+        alt="Menu icon"
+        id="menu-icon"
+        class="w-10 h-10 md:hidden cursor-pointer opennav"
+      />
+      <img
+        src="./Images/close.png"
+        alt="Close icon"
+        id="close-icon"
+        class="w-10 h-10 hidden cursor-pointer closenav"
+      />
+    </header>
+    <main>
+      <section
+        id="about"
+        class="mx-auto w-[90%] flex flex-col md:flex-row md:justify-evenly"
+      >
+        <section
+          class="fade-in1 mx-auto mt-30 p-4 gap-8 shadow-2xl font-mono rounded-2xl text-black bg-auto flex flex-col animate-[fade-in_linear] md:text-3xl"
+        >
+          <p>
+            Looking for reliable and affordable cars?
+            <span class="text-blue-500 font-bold"
+              >Lexi-Autos got what you need!</span
+            >.If you want luxury, fuel sustainable, or power on the road.
+            I offer the best deals and top quality vehicles, I sell both abroad
+            used and and locally used vehicles at an unbeatable price.
+            <span class="text-blue-500 font-bold"
+              >Get a reliable ride that fits your budget perfectly</span
+            >
+            and drive home with your dream car. Contact me today
+          </p>
+          <div class="container flex overflow-hidden flex-nowrap relative">
+            <div class="scrool flex-row gap-4">
+              <img
+                class="w-100 h-40"
+                src="./Images/Car19.jpeg"
+                alt="Car Image"
+              />
+              <img
+                class="w-100 h-40"
+                src="./Images/Car18.jpeg"
+                alt="Car Image"
+              />
+              <img
+                class="w-100 h-40"
+                src="./Images/Car13.jpeg"
+                alt="Car Image"
+              />
+              <img
+                class="w-100 h-40"
+                src="./Images/Car20.jpeg"
+                alt="Car Image"
+              />
+              <img
+                class="w-100 h-40"
+                src="./Images/Car3.jpeg"
+                alt="Car Image"
+              />
+              <img
+                class="w-100 h-40"
+                src="./Images/Car19.jpeg"
+                alt="Car Image"
+              />
+              <img
+                class="w-100 h-40"
+                src="./Images/Car18.jpeg"
+                alt="Car Image"
+              />
+              <img
+                class="w-100 h-40"
+                src="./Images/Car13.jpeg"
+                alt="Car Image"
+              />
+              <img
+                class="w-100 h-40"
+                src="./Images/Car20.jpeg"
+                alt="Car Image"
+              />
+              <img
+                class="w-100 h-40"
+                src="./Images/Car3.jpeg"
+                alt="Car Image"
+              />
+            </div>
+          </div>
+        </section>
+        <img
+          class="fade-in2 md:mt-60 mt-30 h-70 mx-auto"
+          src="./Images/random1.jpeg"
+          alt="car-image"
+        />
+      </section>
+      <section id="products" class="p-8">
+        <section
+          id="Products"
+          class="animate-fade-in3 mx-auto w-1/2 mt-30 h-20 p-4 rounded-2xl flex justify-center align-middle bg-blue-500 text-black"
+        >
+          <h2 class="md:text-3xl font-bold mt-4">VIEW PRODUCTS</h2>
+          <img
+            src="./Images/expand.png"
+            alt="Open"
+            class="h-10 cursor-pointer openprod"
+          />
+        </section>
+
+        <section
+          class="dropdown fade-in3 bg-amber-50 grid grid-cols-2 gap-3 md:grid-cols-3 h-[500px] overflow-auto p-6 rounded-3xl"
+          style="display: none"
+        >
+          <img
+            class="sticky top-0 z-5 h-10 bg-blue-500 rounded-4xl cursor-pointer closeprod"
+            src="./Images/close.png"
+            alt="Close products"
+          />
+          <img
+            src="./Images/Car1.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car2.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car3.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car4.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car5.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car6.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car7.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car8.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car9.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car10.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car11.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car12.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car13.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car14.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car15.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car16.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car17.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car18.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car19.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car20.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+          <img
+            src="./Images/Car21.jpeg"
+            alt="Car-image"
+            class="fade-in3 w-1/2 h-50"
+          />
+        </section>
+      </section>
+      <section class="flex flex-col md:flex-row md:gap-8">
+        <section
+          class="mx-auto fade-in3 w-auto h-auto text-white font-mono rounded-2xl md:text-3xl mt-12 md:text-left" style="background-image: url('./Images/Bgtext.jpeg'); background-size: cover;"
+        >
+          <div
+            class="backdrop-brightness-50 text-white md:h-150 w-full rounded-2xl p-6"
+          >
+            <p>
+              Here at <span class="text-blue-500 font-bold">Lexi-Autos</span> we
+              offer a wide selection of vehicles tailored to meet different
+              needs and lifestyles. Whether you're looking for a budget-friendly
+              option or a luxury ride, we have something that fits your needs.
+              Our services include:
+              <p>- Import and export of vehicles</p>
+              <p>- Car rentalS</p>
+              <p>- Sales and distribution of various models</p>
+              Contact us today on our social media platforms or visit our lot to
+              explore how
+              <span class="text-blue-500 font-bold">Lexi-Autos</span> can meet
+              your automative needs.
+            </p>
+          </div>
+        </section>
+        <section
+          class="mx-auto fade-in3 w-auto h-auto text-blue bg-cover font-mono rounded-2xl md:text-3xl mt-12 md:text-left" style="background-image: url('./Images/bg-image.jpeg');"
+        >
+          <div
+            class="backdrop-brightness-50 text-white rounded-2xl md:h-150 w-full p-6"
+          >
+              At
+              <span class="text-blue-500 font-bold"
+                >Lexi-Autos,</span
+              >
+              we're committed to making your car-buying experience hassle-free. Enjoy nationwide delivery of high-quality vehicles, with your dream car delivered to your doorstep within a week  where you are. We guarantee:
+              <p> - seamless purchasing process</p>
+              <p> - Top-notch customer service</p>
+              <p> - Fast and reliable delivery</p>
+              Don't wait, secure your ride now and experience the
+              convenience of buying with <span class="text-blue-500 font-bold"
+              >Lexi-Autos!</span> 
+               Contact us today and let’s
+              get you your perfect car! 🚗💨
+            </p>
+          </div>
+        </section>
+      </section>
+      <section
+        class="flex justify-evenly items-center mt-6 space-x-4 animate-bounce w-full h-20"
+      >
+        <a
+          href="https://wa.me/+2348055526350"
+          target="_blank"
+          class="text-green-500 text-2xl hover:text-green-700"
+        >
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/alexchima65"
+          target="_blank"
+          class="text-pink-500 text-2xl hover:text-pink-700"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/alexchima65"
+          target="_blank"
+          class="text-blue-500 text-2xl hover:text-blue-700"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a
+          href="https://twitter.com/alexchima65"
+          target="_blank"
+          class="text-gray-900 text-2xl hover:text-gray-700"
+        >
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </section>
+    </main>
+    <footer
+      class="font-mono w-full h-auto text-blue-500"
+      style="background-color: #333"
+    >
+      <section class="w-full flex flex-col md:flex-row md:justify-evenly p-8">
+        <section class="flex flex-col gap-2 justify-center itesm-center">
+          <img src="./Images/ftlogo.jpeg" alt="Logo-image" class="h-50" />
+          <div class="flex mt-6 animate-bounce justify-evenly">
+            <a
+              href="https://wa.me/+2348055526350"
+              target="_blank"
+              class="text-green-500 text-2xl hover:text-green-700"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/alexchima65"
+              target="_blank"
+              class="text-pink-500 text-2xl hover:text-pink-700"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.facebook.com/alexchima65"
+              target="_blank"
+              class="text-blue-500 text-2xl hover:text-blue-700"
+            >
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a
+              href="https://twitter.com/alexchima65"
+              target="_blank"
+              class="text-gray-900 text-2xl hover:text-gray-700"
+            >
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </div>
+        </section>
+        <section id="contact" class="ftcon w-full mt-6 p-4 md:text-right">
+          <h2 class="font-bold text-xl">Contact Us</h2>
+          <hr class="w-1/2 mt-4 md:ml-auto" />
+          <h3>Address:</h3>
+          <address>
+            📍 KM6 Benin Sapele<br />
+            Sapele Road, Benin<br />
+            Edo State, Nigeria<br />
+          </address>
+          <hr class="w-1/2 mt-4 md:ml-auto" />
+          <h3>Phone:</h3>
+          <p>📞 +8055526350</p>
+          <p>📞 +8036061522</p>
+          <hr class="w-1/2 mt-4 md:ml-auto" />
+          <h3>Email</h3>
+          <p><a href="mailto:example@email.com"> ✉️Alexchima65@gmail.com</a></p>
+          <p>
+            <a href="mailto:example@hotmail.com"> ✉️Alexchima65@hotmail.com</a>
+          </p>
+        </section>
+      </section>
+      <section class="w-full text-center h-auto mt-6 p-6">
+        <hr class="w-full bg-blue-500" />
+        <p>Lexi-Autos, all rights reserved</p>
+      </section>
+    </footer>
+  </body>
+</html>
